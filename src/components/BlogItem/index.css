@@ -1,1 +1,29 @@
-/* Write your CSS code here */
+.blog-items {
+  border: solid 1px #8e8e8e;
+  border-radius: 13px;
+  padding: 3%;
+  margin: 9px;
+}
+
+.blog-item-link {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+}
+
+.blog-image {
+  width: 35%;
+  align-self: stretch;
+  margin-right: 11px;
+}
+/* @media (min-width: 768px) {
+  .blog-image {
+    width: 210px;
+    height: 153px;
+  }
+} */
+
+.blog-avatar {
+  width: 29px;
+}
